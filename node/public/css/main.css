@@ -1,0 +1,24 @@
+body {
+    background-color: #eee;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.page {
+    width: 100%;
+    max-width: 800px;
+    margin: 100px auto;
+    background-color: #fff;
+    padding: 50px;
+    min-height: 200px;
+    border-radius: 5px;
+}
+
+
+.paragraph {
+    color: hsl(300, 50%, 50%);
+}
