@@ -12,7 +12,9 @@ const app = express();
 //   res.send('Hello world tessssst\n');
 // });
 app.get('/test', (req, res) => {
-    res.status(200).send('test route')
+    res.status(200).send(JSON.stringify({
+        test: process.env.TEST
+    }))
 })
 
 app.use(express.static('public'))
