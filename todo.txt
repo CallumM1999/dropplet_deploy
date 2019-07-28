@@ -1,0 +1,10 @@
+setup socket for multi-server use (Redis)
+
+Improve profile image verification
+Suggest profile image upload on register
+
+Add online guest account
+
+user can play agaist themselves online
+
+move 'its your turn' text to top, user profiles can move to the right

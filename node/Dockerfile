@@ -4,6 +4,7 @@ COPY . .
 RUN apt-get update && \
     apt-get upgrade -y && \
     npm install --global yarn && \
-    yarn
+    yarn && \
+    yarn build 
 EXPOSE 80
 CMD ["yarn", "start"]
